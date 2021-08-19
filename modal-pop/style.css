@@ -1,0 +1,60 @@
+*
+{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.container
+{
+	width: 100%;
+	padding: 20px 40px;
+}
+.btn-red
+{
+	padding: 7.5px 10px;
+	background-color: #f5426c;
+	border: 1.5px solid #f5426c;
+	cursor: pointer;
+	color: #efefef;
+}
+.btn-red:hover
+{
+	background-color: #f5424e;
+}
+/*modal box pop up*/
+.modal-box
+{
+	width: 100%;
+	height: 100vh;
+	display: none;
+	position: absolute;
+	top: 0;
+	background-color: rgba(0, 0, 0, 1.0);
+}
+.active
+{
+	display: block;
+}
+.modal-content
+{
+	width: 400px;
+	background-color: #fff;
+	margin: 40px auto;
+	padding: 7.5px 10px;
+	position: relative;
+}
+.close
+{
+	padding: 7.5px 10px;
+	background-color: #f5426c;
+	border: 1.5px solid #f5426c;
+	cursor: pointer;
+	color: #efefef;	
+	position: absolute;
+	top: 0;
+	right: 0;
+}
